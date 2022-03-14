@@ -39,6 +39,7 @@ public class Evenement implements Serializable {
     @Column(name = "idEvenement")
     private Integer idEvenement;    
     @Column(name = "nom")
+    @Basic(optional = false)
     private String nom;    
     @Column(name = "description")
     private String description;    
